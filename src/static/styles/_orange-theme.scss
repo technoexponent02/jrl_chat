@@ -1,0 +1,86 @@
+$primary-color: #f3631d;
+$promary-text-color: #fff;
+
+.orange-theme {
+  .header {
+    background-color: $primary-color;
+    color: $promary-text-color;
+  }
+
+  .total-search-result {
+    .group-result {
+      color: $primary-color;
+    }
+    span {
+      color: $primary-color;
+    }
+  }
+
+  .group-listing-container {
+    .chat-group-outer {
+      .chat-group-inner {
+        .group-count {
+          color: $primary-color;
+        }
+        .group-action-row {
+          button {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+  // check mark color
+  .check-mark-label {
+    opacity: 0;
+    .check-mark {
+      color: $primary-color;
+    }
+  }
+
+  .icon-field {
+    .location-mark {
+      color: $primary-color;
+    }
+  }
+  .reg-info-msg {
+    color: $primary-color;
+  }
+
+  // chat room header btn
+  .header-btn-listing {
+    li {
+      button {
+        color:$primary-color;
+        background-color:$promary-text-color;
+        &:hover{
+          background-color:$primary-color;
+        color:$promary-text-color;
+        }
+        &.active{
+          background-color:$primary-color;
+        color:$promary-text-color;
+        }
+        &:focus{
+          outline: none;
+        }
+      }
+    }
+  }
+
+  .mobile-navbar {  
+    .mobile-menu-btn {  
+      figure {       
+        .counter {
+          background: $primary-color
+        }
+      }
+      &.active{
+        color:$primary-color;
+      }
+     
+    }
+  }
+
+
+}
